@@ -8,5 +8,6 @@ Vue.use(Vue2TouchEvents);
 Vue.use(Buefy);
 
 new Vue({
-  render: h => h(App)
+  render: h => h(App),
+  title: "Hello"
 }).$mount("#app");
