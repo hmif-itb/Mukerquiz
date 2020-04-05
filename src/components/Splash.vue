@@ -5,7 +5,7 @@
       <h1 class="title after-logo is-size-2-mobile">Hello.</h1>
       <h2
         class="subtitle after-logo is-size-3-mobile"
-      >Ready to find out what type of Sugar Baby you are?</h2>
+      >What kind of Sugar Baby are YOU? Let's find out!</h2>
     </div>
     <next-button class="after-logo" @click.native="nextStep" />
   </div>

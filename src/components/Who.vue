@@ -11,7 +11,7 @@
         />,
       </h2>
       <h2 class="subtitle is-size-3-mobile">
-        And you are a
+        And you are an
         <select
           v-model="major"
           class="subtitle is-size-3-mobile input-styled select-styled"
