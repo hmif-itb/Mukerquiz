@@ -36,7 +36,7 @@ export default {
   },
   async mounted() {
     try {
-      const data = await fetch("http://127.0.0.1:5000/questions", {
+      const data = await fetch("https://mukerquiz.herokuapp.com/questions", {
         mode: "cors"
       });
       this.questions = await data.json();

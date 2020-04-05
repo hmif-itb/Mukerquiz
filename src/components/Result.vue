@@ -64,7 +64,7 @@ export default {
       return;
     }
     try {
-      const data = await fetch("http://127.0.0.1:5000/answers", {
+      const data = await fetch("https://mukerquiz.herokuapp.com/questions", {
         method: "POST",
         mode: "cors",
         headers: {
